@@ -48,4 +48,3 @@ document.addEventListener("DOMContentLoaded", () => {
         .catch(error => console.error("Erro ao carregar soft skills:", error));
 
 });
-});
