@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-
+     // 🔹 Projetos
     fetch("projetos.json")
         .then(response => response.json())
         .then(projetos => {
@@ -24,4 +24,28 @@ document.addEventListener("DOMContentLoaded", () => {
         })
         .catch(error => console.error("Erro ao carregar projetos:", error));
 
+ // 🔹 SOFT SKILLS
+    fetch("softskills.json")
+        .then(response => response.json())
+        .then(skills => {
+
+            const containerSkills = document.getElementById("lista-softskills");
+
+            skills.forEach(skill => {
+
+                const card = document.createElement("div");
+                card.classList.add("skill-card");
+
+                card.innerHTML = `
+                    <h3>${skill.titulo}</h3>
+                    <p>${skill.descricao}</p>
+                `;
+
+                containerSkills.appendChild(card);
+            });
+
+        })
+        .catch(error => console.error("Erro ao carregar soft skills:", error));
+
+});
 });
