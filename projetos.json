@@ -1,0 +1,32 @@
+[
+  {
+    "titulo": "Sistema de Cálculo de Impostos",
+    "descricao": "Aplicação Java para cálculo de PIS e IPI utilizando POO.",
+    "stack": "Java, Interfaces, Polimorfismo",
+    "link": "https://github.com/rodrigocav/SistemaImpostos"
+  },
+  {
+    "titulo": "Sistema de Gestão de RH",
+    "descricao": "CRUD completo com controle de acesso por níveis de usuário.",
+    "stack": "Java, MySQL, JDBC, DAO",
+    "link": "https://github.com/rodrigocav/rh-system-java-crud"
+  },
+  {
+    "titulo": "Sistema de Pacotes de Viagem",
+    "descricao": "Gerenciamento de pacotes com cálculo automático de taxas e moedas.",
+    "stack": "Java, POO, Lógica Financeira",
+    "link": "https://github.com/rodrigocav/SistemaPacotesViagem"
+  },
+  {
+    "titulo": "Site de E-commerce",
+    "descricao": "O objetivo deste projeto foi desenvolver uma página de e-commerce fiel ao layout proposto no Figma, implementando funcionalidades essenciais de uma loja virtual moderna. O foco principal foi a criação de componentes reutilizáveis, consumo de dados externos e fidelidade visual (Pixel Perfect).",
+    "stack":"Typescript, SCSS, VITE e React",
+    "link": "https://github.com/rodrigocav/teste-front-end"
+  },
+    {
+    "titulo": "Ótica Arte",
+    "descricao": "Site institucional desenvolvido para a Ótica Arte, com foco na apresentação de produtos, serviços e contato com clientes.",
+    "stack":"Javascript, HTML, CSS, React",
+    "link": "https://github.com/rodrigocav/Site-Otica-Arte"
+    }
+]
