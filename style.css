@@ -283,6 +283,9 @@ footer {
 
 /* CELULAR */
 @media (max-width: 768px) {
+    .sobre img{
+        width: 140px;
+        }
 
     section {
         padding: 60px 6%;
