@@ -243,6 +243,39 @@ h1, h2, h3 {
     text-decoration: underline;
 }
 
+/* ================= GITHUB STATS ================= */
+
+.github-stats {
+    text-align: center;
+    padding: 100px 8%;
+}
+
+.github-stats h2 {
+    font-size: 2rem;
+    margin-bottom: 50px;
+    font-weight: 600;
+}
+
+.stats-container {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* centraliza verticalmente */
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.stats-container img {
+    width: 420px;
+    max-width: 100%;
+    border-radius: 16px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.stats-container img:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
+
 /* ================= CONTATO ================= */
 
 .contato {
@@ -294,6 +327,10 @@ footer {
 
 /* CELULAR */
 @media (max-width: 768px) {
+    .stats-container {
+        flex-direction: column;
+        gap: 20px;
+    }
     .sobre img{
         width: 180px;
         }
