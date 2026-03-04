@@ -3,152 +3,137 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200..1000&display=swap" rel="stylesheet">
-    <title>Rodrigo Cavicchioli</title>
+    <title>Rodrigo Cavicchioli | Desenvolvedor Back-end</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;600;800&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
-    <!-- MENU -->
-    <nav>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="logo">Rodrigo.dev</div>
         <ul>
-            <li><a href="#home">Home</a></li>
+            <li><a href="#home">Início</a></li>
             <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#tecnologias">Tecnologias</a></li>
             <li><a href="#projetos">Projetos</a></li>
-            <li><a href="#contato">Fale Comigo</a></li>
+            <li><a href="#contato">Contato</a></li>
         </ul>
     </nav>
 
-<section class="Caixa-Principal" id="home">
-    <div class="meu-nome">
-        <h1>Rodrigo <span>Cavicchioli</span></h1>
-        <h3>Programador <span>Back-end</span></h3>
+    <!-- HERO -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Olá, eu sou <span>Rodrigo Cavicchioli</span></h1>
+            <h2>Desenvolvedor Back-end Java & Python</h2>
+            <p>
+                Focado em regras de negócio, integração com banco de dados e
+                construção de sistemas organizados, escaláveis e seguros.
+            </p>
 
-        <div class="apresentacao__links">
-            <h2 class="apresentacao__links__subtitulo">Acesse minhas redes</h2>
-            
-            <a class="apresentacao__links__link" href="https://github.com/rodrigocav" target="_blank">
-                <img src="./img/github.png" alt="Github">
-                Github
-            </a>
-
-            <a class="apresentacao__links__link" href="https://www.linkedin.com/in/rodrigocavi/" target="_blank">
-                <img src="./img/LinkedIn-Emblema.png" alt="LinkedIn">
-                LinkedIn
-            </a>
-
-            <a class="apresentacao__links__link" href="img/CV_RODRIGOCAVTI__compressed.pdf" download="Currículo_Rodrigo_Cavicchioli.pdf">
-                <img src="./img/curriculo_img.jpg" alt="Currículo">
-                Baixar Currículo
-            </a>
-        </div>
-    </div>
-</section>
-
-
-    <!-- LINHA DO TEMPO -->
-    <section class="linha-do-tempo" id="linha-do-tempo">
-        <h2>Minha Linha do Tempo</h2>
-
-        <div class="timeline">
-            <div class="timeline-item">
-                <h3>Técnico em Desenvolvimento de Sistemas</h3>
-                <p>Início: 2025 | Cursando</p>
-                <p>Centro Universitário Senac</p>
+            <div class="hero-buttons">
+                <a href="#projetos" class="btn-primary">Ver Projetos</a>
+                <a href="img/CV_RODRIGOCAVTI__compressed.pdf" 
+                   download="Curriculo_Rodrigo_Cavicchioli.pdf" 
+                   class="btn-secondary">Baixar Currículo</a>
             </div>
 
-            <div class="timeline-item">
-                <h3>Ciência da Computação</h3>
-                <p>Início: Fevereiro de 2024 | Cursando</p>
-                <p>Universidade Paulista (UNIP)</p>
-            </div>
-
-            <div class="timeline-item">
-                <h3>Técnico em Administração</h3>
-                <p>2022 – 2023</p>
-                <p>Etec Guaracy Silveira</p>
+            <div class="social-links">
+                <a href="https://github.com/rodrigocav" target="_blank">GitHub</a>
+                <a href="https://www.linkedin.com/in/rodrigocavi/" target="_blank">LinkedIn</a>
             </div>
         </div>
     </section>
 
     <!-- SOBRE -->
     <section class="sobre" id="sobre">
-        <img src="./img/img_rodrigocav.jpg" alt="Minha foto">
-        <div>
-            <h2>Sobre Mim</h2>
-            <p>
-                Olá! Meu nome é Rodrigo de Oliveira Cavicchioli, sou desenvolvedor back-end e estudante
-                de Ciência da Computação. Atuo no desenvolvimento de sistemas utilizando Java e Python,
-                com foco em regras de negócio, integração com banco de dados e construção de soluções
-                eficientes, seguras e bem estruturadas.
-            </p>
+        <div class="sobre-container">
+            <img src="./img/img_rodrigocav.jpg" alt="Rodrigo Cavicchioli">
+            
+            <div>
+                <h2>Sobre Mim</h2>
+                <p>
+                    Desenvolvedor Back-end com foco em Java e Python, estudante de Ciência da Computação.
+                    Experiência no desenvolvimento de sistemas com aplicação de Programação Orientada a Objetos,
+                    integração com banco de dados MySQL e organização de código utilizando boas práticas.
+                </p>
+                <p>
+                    Busco oportunidades para atuar como Desenvolvedor Java Júnior,
+                    contribuindo com soluções eficientes e evoluindo constantemente minhas habilidades técnicas.
+                </p>
+            </div>
+        </div>
+    </section>
 
-            <a href="https://wa.me/5511999752005" target="_blank">
-                <button id="contato">Entre em Contato</button>
-            </a>
+    <!-- TECNOLOGIAS -->
+    <section class="tecnologias" id="tecnologias">
+        <h2>Tecnologias</h2>
+        <div class="tech-list">
+            <span>Java</span>
+            <span>Python</span>
+            <span>MySQL</span>
+            <span>JDBC</span>
+            <span>Git & GitHub</span>
+            <span>HTML5</span>
+            <span>CSS3</span>
+            <span>POO</span>
         </div>
     </section>
 
     <!-- PROJETOS -->
     <section class="projetos" id="projetos">
-        <h2>Meus Projetos</h2>
+        <h2>Projetos em Destaque</h2>
 
-        <div class="cards-projetos">
+        <div class="cards">
+
             <div class="card">
                 <h3>Sistema de Cálculo de Impostos</h3>
-                <p>
-                    Desenvolvimento de sistema em Java para cálculo e gerenciamento de impostos (PIS e IPI), aplicando Programação Orientada a Objetos, uso de interfaces, encapsulamento e polimorfismo para organização e reutilização de código.
-                </p>
-                <a href="https://github.com/rodrigocav/SistemaImpostos" target="_blank">
-                    Ver no GitHub
-                </a>
+                <p>Aplicação Java para cálculo de PIS e IPI utilizando POO.</p>
+                <p><strong>Stack:</strong> Java, Interfaces, Polimorfismo</p>
+                <a href="https://github.com/rodrigocav/SistemaImpostos" target="_blank">Ver no GitHub</a>
             </div>
 
             <div class="card">
                 <h3>Sistema de Gestão de RH</h3>
-                <p>
-                    Desenvolvimento de sistema de Recursos Humanos em Java com operações CRUD completas, controle de acesso por níveis de usuário, aplicação do padrão DAO e integração com banco de dados MySQL utilizando JDBC.
-                </p>
-                <a href="https://github.com/rodrigocav/rh-system-java-crud" target="_blank">
-                    Ver no GitHub
-                </a>
+                <p>CRUD completo com controle de acesso por níveis de usuário.</p>
+                <p><strong>Stack:</strong> Java, MySQL, JDBC, DAO</p>
+                <a href="https://github.com/rodrigocav/rh-system-java-crud" target="_blank">Ver no GitHub</a>
+            </div>
+
+            <div class="card">
+                <h3>Sistema de Pacotes de Viagem</h3>
+                <p>Gerenciamento de pacotes com cálculo automático de taxas e moedas.</p>
+                <p><strong>Stack:</strong> Java, POO, Lógica Financeira</p>
+                <a href="https://github.com/rodrigocav/SistemaPacotesViagem" target="_blank">Ver no GitHub</a>
             </div>
 
             <div class="card">
                 <h3>Fórum da Inclusão</h3>
-                <p>
-                    Desenvolvimento da versão beta de site institucional para ONG, com foco em acessibilidade, responsividade e impacto social. Projeto colaborativo de front-end voltado à entrega rápida de uma presença digital funcional, com estruturação semântica de páginas, design responsivo e trabalho em equipe. Tecnologias utilizadas: HTML5, CSS3 e JavaScript.
-                </p>
-                <a href="https://github.com/rodrigocav/Forum-da-Inclusao-beta-oficial" target="_blank">
-                    Ver no GitHub
-                </a>
+                <p>Site institucional com foco em acessibilidade e responsividade.</p>
+                <p><strong>Stack:</strong> HTML, CSS, JavaScript</p>
+                <a href="https://github.com/rodrigocav/Forum-da-Inclusao-beta-oficial" target="_blank">Ver no GitHub</a>
             </div>
-            <div class="card">
-                <h3>Sistema de Pacotes de Viagem</h3>
-                <p>
-                    Sistema em Java (console) para gerenciamento de pacotes de viagem em agências, integrando transporte e hospedagem, com cálculo automático de custos, aplicação de margem de lucro e taxas, registro de vendas e conversão de moedas (USD ⇄ BRL). Projeto prático focado na aplicação de Programação Orientada a Objetos, simulando regras de negócio reais e demonstrando organização de código, lógica financeira e boas práticas de desenvolvimento em Java. Tecnologias e conceitos utilizados: Java, Programação Orientada a Objetos (POO), lógica de negócios, Git/GitHub e NetBeans.
-                </p>
-                <a href="https://github.com/rodrigocav/SistemaPacotesViagem" target="_blank">
-                    Ver no GitHub
-                </a>
-            </div>
-
-
-
-
-
-
-
-
-
-
-
-
 
         </div>
     </section>
+
+    <!-- CONTATO -->
+    <section class="contato" id="contato">
+        <h2>Vamos Conversar?</h2>
+        <p>
+            Estou disponível para oportunidades como Desenvolvedor Back-end Java Júnior.
+        </p>
+
+        <a href="https://wa.me/5511999752005" target="_blank" class="btn-primary">
+            Falar no WhatsApp
+        </a>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2026 Rodrigo Cavicchioli. Todos os direitos reservados.</p>
+    </footer>
 
 </body>
 </html>
